@@ -4,12 +4,7 @@
 #
 # NDM Operator YAML will be downladed from github.com/openebs/node-disk-manager repo
 
-# Create the OpenEBS namespace
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: openebs
----
+
 # Create Maya Service Account
 apiVersion: v1
 kind: ServiceAccount
